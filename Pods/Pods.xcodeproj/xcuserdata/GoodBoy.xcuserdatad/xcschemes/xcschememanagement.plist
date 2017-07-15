@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HHZCategory.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HHZUtils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-HHZBaseClass.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FB90D3557CC9E60880A6CF68282F9927</key>
+		<key>6A9B86A29980C1C6763F52DC6011AC0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97E9CF9BB481E76E57A2A780E14DF1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0D13ABEE972F10F56A26001109D5B9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

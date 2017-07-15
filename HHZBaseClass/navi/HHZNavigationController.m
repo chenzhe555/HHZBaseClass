@@ -7,8 +7,8 @@
 //
 
 #import "HHZNavigationController.h"
-#import "HHZPlistTool.h"
-#import "UIColor+HHZCategory.h"
+#import <HHZUtils/HHZPlistTool.h>
+#import <HHZCategory/UIColor+HHZCategory.h>
 
 @interface HHZNavigationController ()
 
