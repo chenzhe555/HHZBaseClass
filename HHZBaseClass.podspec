@@ -113,7 +113,7 @@ Pod::Spec.new do |s|
         three.source_files = 'HHZBaseClass/others/*.{h,m}'
       end
 
-end
+  end
 
   # s.public_header_files = "Classes/**/*.h"
 
