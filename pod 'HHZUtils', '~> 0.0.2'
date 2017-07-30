@@ -1,0 +1,28 @@
+pod 'HHZUtils', '~> 0.0.2'
+  pod 'HHZConfigs', '~> 0.0.1'
+  pod 'HHZTabbar', '~> 0.0.1'
+  pod 'HHZNetwork', '~> 0.0.2'
+
+  
+  
+  
+  pod 'HHZUtils', :podspec => '/Users/renhemac/Desktop/Project/iOS/HHZUtils/HHZUtils.podspec'
+  pod 'HHZConfigs', :podspec => '/Users/renhemac/Desktop/Project/iOS/HHZConfigs/HHZConfigs.podspec'
+  pod 'HHZTabbar', :podspec => '/Users/renhemac/Desktop/Project/iOS/HHZTabbar/HHZTabbar.podspec'
+  pod 'HHZNetwork', :podspec => '/Users/renhemac/Desktop/Project/iOS/HHZNetwork/HHZNetwork.podspec'
+
+
+
+
+pod 'HHZUtils', :git => 'https://github.com/chenzhe555/HHZUtils.git'
+pod 'HHZConfigs', :git => 'https://github.com/chenzhe555/HHZConfigs.git'
+pod 'HHZTabbar', :git => 'https://github.com/chenzhe555/HHZTabbar.git'
+pod 'HHZNetwork', :git => 'https://github.com/chenzhe555/HHZNetwork.git'
+pod 'HHZCategory', :git => 'https://github.com/chenzhe555/HHZCategory.git'
+pod 'HHZUmengTool', :git => 'https://github.com/chenzhe555/HHZUmengTool.git'
+pod 'HHZGuidePage', :git => 'https://github.com/chenzhe555/HHZGuidePage.git'
+pod 'HHZLaunchView', :git => 'https://github.com/chenzhe555/HHZLaunchView.git'
+pod 'HHZCollectionViews', :git => 'https://github.com/chenzhe555/HHZCollectionViews.git'
+pod 'HHZBaseClass', :git => 'https://github.com/chenzhe555/HHZBaseClass.git'
+pod 'HHZUtils', :git => 'https://github.com/chenzhe555/HHZUtils.git'
+

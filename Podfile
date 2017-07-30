@@ -4,8 +4,8 @@
 target 'HHZBaseClass' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-  pod 'HHZCategory', '~> 0.0.2'
-  pod 'HHZUtils', '~> 0.0.2'
+  pod 'HHZCategory', :git => 'https://github.com/chenzhe555/HHZCategory.git'
+  pod 'HHZUtils', :git => 'https://github.com/chenzhe555/HHZUtils.git'
   # Pods for HHZBaseClass
 
 end
