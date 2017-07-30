@@ -29,10 +29,14 @@
     UINavigationBar *navBar = [UINavigationBar appearance];
     
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    if (!textColor)
+    if (textColor)
     {
         //设置文字颜色
         textAttrs[NSForegroundColorAttributeName] = textColor;
+    }
+    else
+    {
+        textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     }
     if (fontSize > 0.0f)
     {
