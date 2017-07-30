@@ -7,8 +7,6 @@
 //
 
 #import "HHZNavigationController.h"
-#import <HHZUtils/HHZPlistTool.h>
-#import <HHZCategory/UIColor+HHZCategory.h>
 
 @interface HHZNavigationController ()
 
@@ -19,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self setNavBasicInfo];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,46 +24,36 @@
     // Dispose of any resources that can be recreated.
 }
 
-/**
- *  设置初始化值
- */
-+(void)initialize
-{
-    [super initialize];
-    [self setNaviScheme];
-}
-
-/**
- *  设置一些基本主题元素
- */
-+(void)setNaviScheme
+-(void)configNaviSchemeTextColor:(UIColor *)textColor textfontSize:(CGFloat)fontSize isBlod:(BOOL)isBold
 {
     UINavigationBar *navBar = [UINavigationBar appearance];
     
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    UIColor * color = [UIColor colorWithHexString_hhz:[HHZPlistTool getPlistValueForKey:@"textColor" plistName:@"HHZNavigationController"]];
-    BOOL isBold = [[HHZPlistTool getPlistValueForKey:@"isBold" plistName:@"HHZNavigationController"] boolValue];
-    NSNumber * textFont = [HHZPlistTool getPlistValueForKey:@"textFontSize" plistName:@"HHZNavigationController"];
-    
-    
-    //设置文字颜色
-    textAttrs[NSForegroundColorAttributeName] = color;
-    //设置文字加粗和大小
-    if (isBold) {
-        textAttrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:[textFont floatValue]];
+    if (!textColor)
+    {
+        //设置文字颜色
+        textAttrs[NSForegroundColorAttributeName] = textColor;
     }
-    else {
-        textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:[textFont floatValue]];
+    if (fontSize > 0.0f)
+    {
+        if (isBold)
+        {
+            //设置文字加粗和大小
+            if (isBold) {
+                textAttrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:fontSize];
+            }
+            else {
+                textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:fontSize];
+            }
+        }
     }
+    
     [navBar setTitleTextAttributes:textAttrs];
 }
 
-/**
- *  设置NavBar的一些基本信息
- */
--(void)setNavBasicInfo
+-(void)configNaviSchemeBarTintColor:(UIColor *)tintColor
 {
-    [self.navigationBar setBarTintColor:[UIColor colorWithHexString_hhz:[HHZPlistTool getPlistValueForKey:@"barTintColor" plistName:@"HHZNavigationController"]]];
+    [self.navigationBar setBarTintColor:tintColor];
     [self.navigationBar setTranslucent:NO];
 }
 

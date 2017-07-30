@@ -16,7 +16,6 @@
 		740038DF1F1A2EA80074A2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740038DD1F1A2EA80074A2FF /* LaunchScreen.storyboard */; };
 		740038FA1F1A2F650074A2FF /* HHZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038E81F1A2F650074A2FF /* HHZLabel.m */; };
 		740038FB1F1A2F650074A2FF /* HHZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038EB1F1A2F650074A2FF /* HHZNavigationController.m */; };
-		740038FC1F1A2F650074A2FF /* HHZNavigationController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740038EC1F1A2F650074A2FF /* HHZNavigationController.plist */; };
 		740038FD1F1A2F650074A2FF /* HHZWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038EF1F1A2F650074A2FF /* HHZWeakProxy.m */; };
 		740038FE1F1A2F650074A2FF /* HHZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F21F1A2F650074A2FF /* HHZTableView.m */; };
 		740038FF1F1A2F650074A2FF /* HHZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F41F1A2F650074A2FF /* HHZTableViewCell.m */; };
@@ -41,7 +40,6 @@
 		740038E81F1A2F650074A2FF /* HHZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZLabel.m; sourceTree = "<group>"; };
 		740038EA1F1A2F650074A2FF /* HHZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNavigationController.h; sourceTree = "<group>"; };
 		740038EB1F1A2F650074A2FF /* HHZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNavigationController.m; sourceTree = "<group>"; };
-		740038EC1F1A2F650074A2FF /* HHZNavigationController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HHZNavigationController.plist; sourceTree = "<group>"; };
 		740038EE1F1A2F650074A2FF /* HHZWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWeakProxy.h; sourceTree = "<group>"; };
 		740038EF1F1A2F650074A2FF /* HHZWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWeakProxy.m; sourceTree = "<group>"; };
 		740038F11F1A2F650074A2FF /* HHZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTableView.h; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 			children = (
 				740038EA1F1A2F650074A2FF /* HHZNavigationController.h */,
 				740038EB1F1A2F650074A2FF /* HHZNavigationController.m */,
-				740038EC1F1A2F650074A2FF /* HHZNavigationController.plist */,
 			);
 			path = navi;
 			sourceTree = "<group>";
@@ -244,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				740038DF1F1A2EA80074A2FF /* LaunchScreen.storyboard in Resources */,
-				740038FC1F1A2F650074A2FF /* HHZNavigationController.plist in Resources */,
 				740038DC1F1A2EA80074A2FF /* Assets.xcassets in Resources */,
 				740038DA1F1A2EA80074A2FF /* Main.storyboard in Resources */,
 			);
