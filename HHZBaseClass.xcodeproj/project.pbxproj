@@ -21,6 +21,7 @@
 		740038FF1F1A2F650074A2FF /* HHZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F41F1A2F650074A2FF /* HHZTableViewCell.m */; };
 		740039001F1A2F650074A2FF /* HHZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F71F1A2F650074A2FF /* HHZViewController.m */; };
 		740039011F1A2F650074A2FF /* HHZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F91F1A2F650074A2FF /* HHZWebViewController.m */; };
+		74D989BE1F331C6100D57EFF /* HHZOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D989BD1F331C6100D57EFF /* HHZOrderedDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		740038F71F1A2F650074A2FF /* HHZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZViewController.m; sourceTree = "<group>"; };
 		740038F81F1A2F650074A2FF /* HHZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWebViewController.h; sourceTree = "<group>"; };
 		740038F91F1A2F650074A2FF /* HHZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWebViewController.m; sourceTree = "<group>"; };
+		74D989BC1F331C6100D57EFF /* HHZOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZOrderedDictionary.h; sourceTree = "<group>"; };
+		74D989BD1F331C6100D57EFF /* HHZOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZOrderedDictionary.m; sourceTree = "<group>"; };
 		77275018DD138FB152340BD6 /* libPods-HHZBaseClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZBaseClass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +137,8 @@
 			children = (
 				740038E71F1A2F650074A2FF /* HHZLabel.h */,
 				740038E81F1A2F650074A2FF /* HHZLabel.m */,
+				74D989BC1F331C6100D57EFF /* HHZOrderedDictionary.h */,
+				74D989BD1F331C6100D57EFF /* HHZOrderedDictionary.m */,
 			);
 			path = kit;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				740038FE1F1A2F650074A2FF /* HHZTableView.m in Sources */,
 				740038FF1F1A2F650074A2FF /* HHZTableViewCell.m in Sources */,
 				740038D71F1A2EA80074A2FF /* ViewController.m in Sources */,
+				74D989BE1F331C6100D57EFF /* HHZOrderedDictionary.m in Sources */,
 				740039011F1A2F650074A2FF /* HHZWebViewController.m in Sources */,
 				740038D41F1A2EA80074A2FF /* AppDelegate.m in Sources */,
 				740038FD1F1A2F650074A2FF /* HHZWeakProxy.m in Sources */,
