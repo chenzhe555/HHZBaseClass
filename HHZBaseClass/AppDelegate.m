@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HHZOrderedDictionary.h"
+#import "HHZWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    HHZWebViewController * webVC = [[HHZWebViewController alloc] init];
+    webVC.urlString = @"http://www.baidu.com";
+    self.window.rootViewController = webVC;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
