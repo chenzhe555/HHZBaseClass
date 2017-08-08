@@ -8,25 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		27EB24446BCD2B40426967DA /* libPods-HHZBaseClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77275018DD138FB152340BD6 /* libPods-HHZBaseClass.a */; };
+		6E4484BA1F39919300F4D1A8 /* HHZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484A71F39919300F4D1A8 /* HHZLabel.m */; };
+		6E4484BB1F39919300F4D1A8 /* HHZOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484A91F39919300F4D1A8 /* HHZOrderedDictionary.m */; };
+		6E4484BC1F39919300F4D1A8 /* HHZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484AC1F39919300F4D1A8 /* HHZNavigationController.m */; };
+		6E4484BD1F39919300F4D1A8 /* HHZWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484AF1F39919300F4D1A8 /* HHZWeakProxy.m */; };
+		6E4484BE1F39919300F4D1A8 /* HHZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B21F39919300F4D1A8 /* HHZTableView.m */; };
+		6E4484BF1F39919300F4D1A8 /* HHZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B41F39919300F4D1A8 /* HHZTableViewCell.m */; };
+		6E4484C01F39919300F4D1A8 /* HHZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B71F39919300F4D1A8 /* HHZViewController.m */; };
+		6E4484C11F39919300F4D1A8 /* HHZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B91F39919300F4D1A8 /* HHZWebViewController.m */; };
 		740038D11F1A2EA80074A2FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038D01F1A2EA80074A2FF /* main.m */; };
 		740038D41F1A2EA80074A2FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038D31F1A2EA80074A2FF /* AppDelegate.m */; };
 		740038D71F1A2EA80074A2FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038D61F1A2EA80074A2FF /* ViewController.m */; };
 		740038DA1F1A2EA80074A2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740038D81F1A2EA80074A2FF /* Main.storyboard */; };
 		740038DC1F1A2EA80074A2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740038DB1F1A2EA80074A2FF /* Assets.xcassets */; };
 		740038DF1F1A2EA80074A2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740038DD1F1A2EA80074A2FF /* LaunchScreen.storyboard */; };
-		740038FA1F1A2F650074A2FF /* HHZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038E81F1A2F650074A2FF /* HHZLabel.m */; };
-		740038FB1F1A2F650074A2FF /* HHZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038EB1F1A2F650074A2FF /* HHZNavigationController.m */; };
-		740038FD1F1A2F650074A2FF /* HHZWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038EF1F1A2F650074A2FF /* HHZWeakProxy.m */; };
-		740038FE1F1A2F650074A2FF /* HHZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F21F1A2F650074A2FF /* HHZTableView.m */; };
-		740038FF1F1A2F650074A2FF /* HHZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F41F1A2F650074A2FF /* HHZTableViewCell.m */; };
-		740039001F1A2F650074A2FF /* HHZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F71F1A2F650074A2FF /* HHZViewController.m */; };
-		740039011F1A2F650074A2FF /* HHZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038F91F1A2F650074A2FF /* HHZWebViewController.m */; };
-		74D989BE1F331C6100D57EFF /* HHZOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D989BD1F331C6100D57EFF /* HHZOrderedDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01AF1E3151C5FC7BC7616F7E /* Pods-HHZBaseClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZBaseClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZBaseClass/Pods-HHZBaseClass.debug.xcconfig"; sourceTree = "<group>"; };
 		0C49723A89BDB8C968E62164 /* Pods-HHZBaseClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZBaseClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZBaseClass/Pods-HHZBaseClass.release.xcconfig"; sourceTree = "<group>"; };
+		6E4484A61F39919300F4D1A8 /* HHZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZLabel.h; sourceTree = "<group>"; };
+		6E4484A71F39919300F4D1A8 /* HHZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZLabel.m; sourceTree = "<group>"; };
+		6E4484A81F39919300F4D1A8 /* HHZOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZOrderedDictionary.h; sourceTree = "<group>"; };
+		6E4484A91F39919300F4D1A8 /* HHZOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZOrderedDictionary.m; sourceTree = "<group>"; };
+		6E4484AB1F39919300F4D1A8 /* HHZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNavigationController.h; sourceTree = "<group>"; };
+		6E4484AC1F39919300F4D1A8 /* HHZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNavigationController.m; sourceTree = "<group>"; };
+		6E4484AE1F39919300F4D1A8 /* HHZWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWeakProxy.h; sourceTree = "<group>"; };
+		6E4484AF1F39919300F4D1A8 /* HHZWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWeakProxy.m; sourceTree = "<group>"; };
+		6E4484B11F39919300F4D1A8 /* HHZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTableView.h; sourceTree = "<group>"; };
+		6E4484B21F39919300F4D1A8 /* HHZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTableView.m; sourceTree = "<group>"; };
+		6E4484B31F39919300F4D1A8 /* HHZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTableViewCell.h; sourceTree = "<group>"; };
+		6E4484B41F39919300F4D1A8 /* HHZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTableViewCell.m; sourceTree = "<group>"; };
+		6E4484B61F39919300F4D1A8 /* HHZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZViewController.h; sourceTree = "<group>"; };
+		6E4484B71F39919300F4D1A8 /* HHZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZViewController.m; sourceTree = "<group>"; };
+		6E4484B81F39919300F4D1A8 /* HHZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWebViewController.h; sourceTree = "<group>"; };
+		6E4484B91F39919300F4D1A8 /* HHZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWebViewController.m; sourceTree = "<group>"; };
 		740038CC1F1A2EA80074A2FF /* HHZBaseClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZBaseClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		740038D01F1A2EA80074A2FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		740038D21F1A2EA80074A2FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,22 +53,6 @@
 		740038DB1F1A2EA80074A2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		740038DE1F1A2EA80074A2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		740038E01F1A2EA80074A2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		740038E71F1A2F650074A2FF /* HHZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZLabel.h; sourceTree = "<group>"; };
-		740038E81F1A2F650074A2FF /* HHZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZLabel.m; sourceTree = "<group>"; };
-		740038EA1F1A2F650074A2FF /* HHZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNavigationController.h; sourceTree = "<group>"; };
-		740038EB1F1A2F650074A2FF /* HHZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNavigationController.m; sourceTree = "<group>"; };
-		740038EE1F1A2F650074A2FF /* HHZWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWeakProxy.h; sourceTree = "<group>"; };
-		740038EF1F1A2F650074A2FF /* HHZWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWeakProxy.m; sourceTree = "<group>"; };
-		740038F11F1A2F650074A2FF /* HHZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTableView.h; sourceTree = "<group>"; };
-		740038F21F1A2F650074A2FF /* HHZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTableView.m; sourceTree = "<group>"; };
-		740038F31F1A2F650074A2FF /* HHZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTableViewCell.h; sourceTree = "<group>"; };
-		740038F41F1A2F650074A2FF /* HHZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTableViewCell.m; sourceTree = "<group>"; };
-		740038F61F1A2F650074A2FF /* HHZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZViewController.h; sourceTree = "<group>"; };
-		740038F71F1A2F650074A2FF /* HHZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZViewController.m; sourceTree = "<group>"; };
-		740038F81F1A2F650074A2FF /* HHZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWebViewController.h; sourceTree = "<group>"; };
-		740038F91F1A2F650074A2FF /* HHZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWebViewController.m; sourceTree = "<group>"; };
-		74D989BC1F331C6100D57EFF /* HHZOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZOrderedDictionary.h; sourceTree = "<group>"; };
-		74D989BD1F331C6100D57EFF /* HHZOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZOrderedDictionary.m; sourceTree = "<group>"; };
 		77275018DD138FB152340BD6 /* libPods-HHZBaseClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZBaseClass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +85,69 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E4484A41F39919300F4D1A8 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484A51F39919300F4D1A8 /* kit */,
+				6E4484AA1F39919300F4D1A8 /* navi */,
+				6E4484AD1F39919300F4D1A8 /* others */,
+				6E4484B01F39919300F4D1A8 /* tableview */,
+				6E4484B51F39919300F4D1A8 /* vc */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		6E4484A51F39919300F4D1A8 /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484A61F39919300F4D1A8 /* HHZLabel.h */,
+				6E4484A71F39919300F4D1A8 /* HHZLabel.m */,
+				6E4484A81F39919300F4D1A8 /* HHZOrderedDictionary.h */,
+				6E4484A91F39919300F4D1A8 /* HHZOrderedDictionary.m */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		6E4484AA1F39919300F4D1A8 /* navi */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484AB1F39919300F4D1A8 /* HHZNavigationController.h */,
+				6E4484AC1F39919300F4D1A8 /* HHZNavigationController.m */,
+			);
+			path = navi;
+			sourceTree = "<group>";
+		};
+		6E4484AD1F39919300F4D1A8 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484AE1F39919300F4D1A8 /* HHZWeakProxy.h */,
+				6E4484AF1F39919300F4D1A8 /* HHZWeakProxy.m */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		6E4484B01F39919300F4D1A8 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484B11F39919300F4D1A8 /* HHZTableView.h */,
+				6E4484B21F39919300F4D1A8 /* HHZTableView.m */,
+				6E4484B31F39919300F4D1A8 /* HHZTableViewCell.h */,
+				6E4484B41F39919300F4D1A8 /* HHZTableViewCell.m */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		6E4484B51F39919300F4D1A8 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				6E4484B61F39919300F4D1A8 /* HHZViewController.h */,
+				6E4484B71F39919300F4D1A8 /* HHZViewController.m */,
+				6E4484B81F39919300F4D1A8 /* HHZWebViewController.h */,
+				6E4484B91F39919300F4D1A8 /* HHZWebViewController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
 		740038C31F1A2EA80074A2FF = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +169,7 @@
 		740038CE1F1A2EA80074A2FF /* HHZBaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				740038E61F1A2F650074A2FF /* kit */,
-				740038E91F1A2F650074A2FF /* navi */,
-				740038ED1F1A2F650074A2FF /* others */,
-				740038F01F1A2F650074A2FF /* tableview */,
-				740038F51F1A2F650074A2FF /* vc */,
+				6E4484A41F39919300F4D1A8 /* classes */,
 				740038D21F1A2EA80074A2FF /* AppDelegate.h */,
 				740038D31F1A2EA80074A2FF /* AppDelegate.m */,
 				740038D51F1A2EA80074A2FF /* ViewController.h */,
@@ -130,57 +189,6 @@
 				740038D01F1A2EA80074A2FF /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		740038E61F1A2F650074A2FF /* kit */ = {
-			isa = PBXGroup;
-			children = (
-				740038E71F1A2F650074A2FF /* HHZLabel.h */,
-				740038E81F1A2F650074A2FF /* HHZLabel.m */,
-				74D989BC1F331C6100D57EFF /* HHZOrderedDictionary.h */,
-				74D989BD1F331C6100D57EFF /* HHZOrderedDictionary.m */,
-			);
-			path = kit;
-			sourceTree = "<group>";
-		};
-		740038E91F1A2F650074A2FF /* navi */ = {
-			isa = PBXGroup;
-			children = (
-				740038EA1F1A2F650074A2FF /* HHZNavigationController.h */,
-				740038EB1F1A2F650074A2FF /* HHZNavigationController.m */,
-			);
-			path = navi;
-			sourceTree = "<group>";
-		};
-		740038ED1F1A2F650074A2FF /* others */ = {
-			isa = PBXGroup;
-			children = (
-				740038EE1F1A2F650074A2FF /* HHZWeakProxy.h */,
-				740038EF1F1A2F650074A2FF /* HHZWeakProxy.m */,
-			);
-			path = others;
-			sourceTree = "<group>";
-		};
-		740038F01F1A2F650074A2FF /* tableview */ = {
-			isa = PBXGroup;
-			children = (
-				740038F11F1A2F650074A2FF /* HHZTableView.h */,
-				740038F21F1A2F650074A2FF /* HHZTableView.m */,
-				740038F31F1A2F650074A2FF /* HHZTableViewCell.h */,
-				740038F41F1A2F650074A2FF /* HHZTableViewCell.m */,
-			);
-			path = tableview;
-			sourceTree = "<group>";
-		};
-		740038F51F1A2F650074A2FF /* vc */ = {
-			isa = PBXGroup;
-			children = (
-				740038F61F1A2F650074A2FF /* HHZViewController.h */,
-				740038F71F1A2F650074A2FF /* HHZViewController.m */,
-				740038F81F1A2F650074A2FF /* HHZWebViewController.h */,
-				740038F91F1A2F650074A2FF /* HHZWebViewController.m */,
-			);
-			path = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,17 +317,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740038FB1F1A2F650074A2FF /* HHZNavigationController.m in Sources */,
-				740038FE1F1A2F650074A2FF /* HHZTableView.m in Sources */,
-				740038FF1F1A2F650074A2FF /* HHZTableViewCell.m in Sources */,
+				6E4484BC1F39919300F4D1A8 /* HHZNavigationController.m in Sources */,
+				6E4484C11F39919300F4D1A8 /* HHZWebViewController.m in Sources */,
 				740038D71F1A2EA80074A2FF /* ViewController.m in Sources */,
-				74D989BE1F331C6100D57EFF /* HHZOrderedDictionary.m in Sources */,
-				740039011F1A2F650074A2FF /* HHZWebViewController.m in Sources */,
+				6E4484BD1F39919300F4D1A8 /* HHZWeakProxy.m in Sources */,
+				6E4484C01F39919300F4D1A8 /* HHZViewController.m in Sources */,
 				740038D41F1A2EA80074A2FF /* AppDelegate.m in Sources */,
-				740038FD1F1A2F650074A2FF /* HHZWeakProxy.m in Sources */,
-				740039001F1A2F650074A2FF /* HHZViewController.m in Sources */,
+				6E4484BB1F39919300F4D1A8 /* HHZOrderedDictionary.m in Sources */,
 				740038D11F1A2EA80074A2FF /* main.m in Sources */,
-				740038FA1F1A2F650074A2FF /* HHZLabel.m in Sources */,
+				6E4484BF1F39919300F4D1A8 /* HHZTableViewCell.m in Sources */,
+				6E4484BE1F39919300F4D1A8 /* HHZTableView.m in Sources */,
+				6E4484BA1F39919300F4D1A8 /* HHZLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZBaseClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Debug;
 		};
@@ -458,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZBaseClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Release;
 		};

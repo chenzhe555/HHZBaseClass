@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHZBaseClass"
-  s.version      = "0.0.1.6"
+  s.version      = "0.0.1.7"
   s.summary      = "基类"
 
   # This description is used to generate tags and improve search results.
@@ -94,23 +94,23 @@ Pod::Spec.new do |s|
 
   s.subspec 'HHZBaseClass' do |one|
       one.subspec 'kit' do |three|
-        three.source_files = 'HHZBaseClass/kit/*.{h,m}'
+        three.source_files = 'HHZBaseClass/classes/kit/*.{h,m}'
       end
 
       one.subspec 'navi' do |three|
-        three.source_files = 'HHZBaseClass/navi/*.{h,m}'
+        three.source_files = 'HHZBaseClass/classes/navi/*.{h,m}'
       end
 
       one.subspec 'tableview' do |three|
-        three.source_files = 'HHZBaseClass/tableview/*.{h,m}'
+        three.source_files = 'HHZBaseClass/classes/tableview/*.{h,m}'
       end
 
       one.subspec 'vc' do |three|
-        three.source_files = 'HHZBaseClass/vc/*.{h,m}'
+        three.source_files = 'HHZBaseClass/classes/vc/*.{h,m}'
       end
 
       one.subspec 'others' do |three|
-        three.source_files = 'HHZBaseClass/others/*.{h,m}'
+        three.source_files = 'HHZBaseClass/classes/others/*.{h,m}'
       end
 
   end
