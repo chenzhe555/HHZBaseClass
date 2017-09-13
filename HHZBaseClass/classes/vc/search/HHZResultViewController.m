@@ -7,6 +7,8 @@
 //
 
 #import "HHZResultViewController.h"
+#import <UIView+HHZCategory.h>
+#import <HHZConfigs/HHZConfig.h>
 
 @interface HHZResultViewController ()
 

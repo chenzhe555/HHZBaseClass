@@ -7,6 +7,7 @@ target 'HHZBaseClass' do
   inhibit_all_warnings!
   pod 'HHZCategory', :git => 'https://github.com/chenzhe555/HHZCategory.git'
   pod 'HHZUtils', :git => 'https://github.com/chenzhe555/HHZUtils.git'
+  pod 'HHZConfigs', :git => 'https://github.com/chenzhe555/HHZConfigs.git'
   # Pods for HHZBaseClass
 
 end

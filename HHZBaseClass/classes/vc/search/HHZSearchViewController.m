@@ -7,6 +7,7 @@
 //
 
 #import "HHZSearchViewController.h"
+#import <HHZConfigs/HHZConfig.h>
 
 @interface HHZSearchViewController ()
 
