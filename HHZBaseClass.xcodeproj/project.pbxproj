@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		27EB24446BCD2B40426967DA /* libPods-HHZBaseClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77275018DD138FB152340BD6 /* libPods-HHZBaseClass.a */; };
+		6E2B52821F68FB41002E229C /* HHZResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B527F1F68FB41002E229C /* HHZResultViewController.m */; };
+		6E2B52831F68FB41002E229C /* HHZSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B52811F68FB41002E229C /* HHZSearchViewController.m */; };
 		6E4484BA1F39919300F4D1A8 /* HHZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484A71F39919300F4D1A8 /* HHZLabel.m */; };
 		6E4484BB1F39919300F4D1A8 /* HHZOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484A91F39919300F4D1A8 /* HHZOrderedDictionary.m */; };
 		6E4484BC1F39919300F4D1A8 /* HHZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484AC1F39919300F4D1A8 /* HHZNavigationController.m */; };
@@ -27,6 +29,10 @@
 /* Begin PBXFileReference section */
 		01AF1E3151C5FC7BC7616F7E /* Pods-HHZBaseClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZBaseClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZBaseClass/Pods-HHZBaseClass.debug.xcconfig"; sourceTree = "<group>"; };
 		0C49723A89BDB8C968E62164 /* Pods-HHZBaseClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZBaseClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZBaseClass/Pods-HHZBaseClass.release.xcconfig"; sourceTree = "<group>"; };
+		6E2B527E1F68FB41002E229C /* HHZResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZResultViewController.h; sourceTree = "<group>"; };
+		6E2B527F1F68FB41002E229C /* HHZResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZResultViewController.m; sourceTree = "<group>"; };
+		6E2B52801F68FB41002E229C /* HHZSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZSearchViewController.h; sourceTree = "<group>"; };
+		6E2B52811F68FB41002E229C /* HHZSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZSearchViewController.m; sourceTree = "<group>"; };
 		6E4484A61F39919300F4D1A8 /* HHZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZLabel.h; sourceTree = "<group>"; };
 		6E4484A71F39919300F4D1A8 /* HHZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZLabel.m; sourceTree = "<group>"; };
 		6E4484A81F39919300F4D1A8 /* HHZOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZOrderedDictionary.h; sourceTree = "<group>"; };
@@ -85,6 +91,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E2B527D1F68FB41002E229C /* search */ = {
+			isa = PBXGroup;
+			children = (
+				6E2B527E1F68FB41002E229C /* HHZResultViewController.h */,
+				6E2B527F1F68FB41002E229C /* HHZResultViewController.m */,
+				6E2B52801F68FB41002E229C /* HHZSearchViewController.h */,
+				6E2B52811F68FB41002E229C /* HHZSearchViewController.m */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
 		6E4484A41F39919300F4D1A8 /* classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +157,7 @@
 		6E4484B51F39919300F4D1A8 /* vc */ = {
 			isa = PBXGroup;
 			children = (
+				6E2B527D1F68FB41002E229C /* search */,
 				6E4484B61F39919300F4D1A8 /* HHZViewController.h */,
 				6E4484B71F39919300F4D1A8 /* HHZViewController.m */,
 				6E4484B81F39919300F4D1A8 /* HHZWebViewController.h */,
@@ -319,8 +337,10 @@
 			files = (
 				6E4484BC1F39919300F4D1A8 /* HHZNavigationController.m in Sources */,
 				6E4484C11F39919300F4D1A8 /* HHZWebViewController.m in Sources */,
+				6E2B52831F68FB41002E229C /* HHZSearchViewController.m in Sources */,
 				740038D71F1A2EA80074A2FF /* ViewController.m in Sources */,
 				6E4484BD1F39919300F4D1A8 /* HHZWeakProxy.m in Sources */,
+				6E2B52821F68FB41002E229C /* HHZResultViewController.m in Sources */,
 				6E4484C01F39919300F4D1A8 /* HHZViewController.m in Sources */,
 				740038D41F1A2EA80074A2FF /* AppDelegate.m in Sources */,
 				6E4484BB1F39919300F4D1A8 /* HHZOrderedDictionary.m in Sources */,
