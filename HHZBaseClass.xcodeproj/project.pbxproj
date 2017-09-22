@@ -18,6 +18,8 @@
 		6E4484BF1F39919300F4D1A8 /* HHZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B41F39919300F4D1A8 /* HHZTableViewCell.m */; };
 		6E4484C01F39919300F4D1A8 /* HHZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B71F39919300F4D1A8 /* HHZViewController.m */; };
 		6E4484C11F39919300F4D1A8 /* HHZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484B91F39919300F4D1A8 /* HHZWebViewController.m */; };
+		6EFB73031F748CA50014B5A5 /* HHZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB73021F748CA50014B5A5 /* HHZPickerView.m */; };
+		6EFB73061F748F500014B5A5 /* HHZInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB73051F748F500014B5A5 /* HHZInputAccessoryView.m */; };
 		740038D11F1A2EA80074A2FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038D01F1A2EA80074A2FF /* main.m */; };
 		740038D41F1A2EA80074A2FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038D31F1A2EA80074A2FF /* AppDelegate.m */; };
 		740038D71F1A2EA80074A2FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740038D61F1A2EA80074A2FF /* ViewController.m */; };
@@ -49,6 +51,10 @@
 		6E4484B71F39919300F4D1A8 /* HHZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZViewController.m; sourceTree = "<group>"; };
 		6E4484B81F39919300F4D1A8 /* HHZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWebViewController.h; sourceTree = "<group>"; };
 		6E4484B91F39919300F4D1A8 /* HHZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWebViewController.m; sourceTree = "<group>"; };
+		6EFB73011F748CA50014B5A5 /* HHZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPickerView.h; sourceTree = "<group>"; };
+		6EFB73021F748CA50014B5A5 /* HHZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPickerView.m; sourceTree = "<group>"; };
+		6EFB73041F748F500014B5A5 /* HHZInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZInputAccessoryView.h; sourceTree = "<group>"; };
+		6EFB73051F748F500014B5A5 /* HHZInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZInputAccessoryView.m; sourceTree = "<group>"; };
 		740038CC1F1A2EA80074A2FF /* HHZBaseClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZBaseClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		740038D01F1A2EA80074A2FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		740038D21F1A2EA80074A2FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +127,10 @@
 				6E4484A71F39919300F4D1A8 /* HHZLabel.m */,
 				6E4484A81F39919300F4D1A8 /* HHZOrderedDictionary.h */,
 				6E4484A91F39919300F4D1A8 /* HHZOrderedDictionary.m */,
+				6EFB73011F748CA50014B5A5 /* HHZPickerView.h */,
+				6EFB73021F748CA50014B5A5 /* HHZPickerView.m */,
+				6EFB73041F748F500014B5A5 /* HHZInputAccessoryView.h */,
+				6EFB73051F748F500014B5A5 /* HHZInputAccessoryView.m */,
 			);
 			path = kit;
 			sourceTree = "<group>";
@@ -336,6 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4484BC1F39919300F4D1A8 /* HHZNavigationController.m in Sources */,
+				6EFB73061F748F500014B5A5 /* HHZInputAccessoryView.m in Sources */,
+				6EFB73031F748CA50014B5A5 /* HHZPickerView.m in Sources */,
 				6E4484C11F39919300F4D1A8 /* HHZWebViewController.m in Sources */,
 				6E2B52831F68FB41002E229C /* HHZSearchViewController.m in Sources */,
 				740038D71F1A2EA80074A2FF /* ViewController.m in Sources */,
