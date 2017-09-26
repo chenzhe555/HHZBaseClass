@@ -26,6 +26,11 @@
     return pickerView;
 }
 
++(instancetype)gainPickerViewDelegate:(id<UIPickerViewDelegate>)delegate dataSource:(id<UIPickerViewDataSource>)dataSource
+{
+    return [self gainPickerViewDelegate:delegate dataSource:dataSource textFont:nil textColor:nil];
+}
+
 -(UILabel *)gainPickerViewLabel:(UIView *)view
 {
     UILabel * pickerLabel = (UILabel*)view;

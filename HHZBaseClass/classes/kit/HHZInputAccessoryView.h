@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface HHZInputAccessoryView : UIView
-
+@property (nonatomic, strong) UILabel * showTextLabel;
 +(instancetype)gainInputAccessoryView:(id<HHZInputAccessoryViewDelegate>)delegate;
 
 @end
