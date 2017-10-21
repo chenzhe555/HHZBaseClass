@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		27EB24446BCD2B40426967DA /* libPods-HHZBaseClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77275018DD138FB152340BD6 /* libPods-HHZBaseClass.a */; };
+		6E240D651F7DEE0900FEA13C /* HHZPersonInfoCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E240D641F7DEE0900FEA13C /* HHZPersonInfoCommonCell.m */; };
+		6E240D681F7DEE7000FEA13C /* HHZPersonInfoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E240D671F7DEE7000FEA13C /* HHZPersonInfoTableView.m */; };
 		6E2B52821F68FB41002E229C /* HHZResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B527F1F68FB41002E229C /* HHZResultViewController.m */; };
 		6E2B52831F68FB41002E229C /* HHZSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B52811F68FB41002E229C /* HHZSearchViewController.m */; };
 		6E4484BA1F39919300F4D1A8 /* HHZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4484A71F39919300F4D1A8 /* HHZLabel.m */; };
@@ -31,6 +33,10 @@
 /* Begin PBXFileReference section */
 		01AF1E3151C5FC7BC7616F7E /* Pods-HHZBaseClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZBaseClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZBaseClass/Pods-HHZBaseClass.debug.xcconfig"; sourceTree = "<group>"; };
 		0C49723A89BDB8C968E62164 /* Pods-HHZBaseClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZBaseClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZBaseClass/Pods-HHZBaseClass.release.xcconfig"; sourceTree = "<group>"; };
+		6E240D631F7DEE0900FEA13C /* HHZPersonInfoCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPersonInfoCommonCell.h; sourceTree = "<group>"; };
+		6E240D641F7DEE0900FEA13C /* HHZPersonInfoCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPersonInfoCommonCell.m; sourceTree = "<group>"; };
+		6E240D661F7DEE7000FEA13C /* HHZPersonInfoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPersonInfoTableView.h; sourceTree = "<group>"; };
+		6E240D671F7DEE7000FEA13C /* HHZPersonInfoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPersonInfoTableView.m; sourceTree = "<group>"; };
 		6E2B527E1F68FB41002E229C /* HHZResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZResultViewController.h; sourceTree = "<group>"; };
 		6E2B527F1F68FB41002E229C /* HHZResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZResultViewController.m; sourceTree = "<group>"; };
 		6E2B52801F68FB41002E229C /* HHZSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZSearchViewController.h; sourceTree = "<group>"; };
@@ -156,8 +162,11 @@
 		6E4484B01F39919300F4D1A8 /* tableview */ = {
 			isa = PBXGroup;
 			children = (
+				6EEC448A1F7DD5C600744A2A /* cell */,
 				6E4484B11F39919300F4D1A8 /* HHZTableView.h */,
 				6E4484B21F39919300F4D1A8 /* HHZTableView.m */,
+				6E240D661F7DEE7000FEA13C /* HHZPersonInfoTableView.h */,
+				6E240D671F7DEE7000FEA13C /* HHZPersonInfoTableView.m */,
 				6E4484B31F39919300F4D1A8 /* HHZTableViewCell.h */,
 				6E4484B41F39919300F4D1A8 /* HHZTableViewCell.m */,
 			);
@@ -174,6 +183,15 @@
 				6E4484B91F39919300F4D1A8 /* HHZWebViewController.m */,
 			);
 			path = vc;
+			sourceTree = "<group>";
+		};
+		6EEC448A1F7DD5C600744A2A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				6E240D631F7DEE0900FEA13C /* HHZPersonInfoCommonCell.h */,
+				6E240D641F7DEE0900FEA13C /* HHZPersonInfoCommonCell.m */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		740038C31F1A2EA80074A2FF = {
@@ -253,8 +271,7 @@
 				TargetAttributes = {
 					740038CB1F1A2EA80074A2FF = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = P5LP3WSZUP;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -350,6 +367,7 @@
 				6EFB73031F748CA50014B5A5 /* HHZPickerView.m in Sources */,
 				6E4484C11F39919300F4D1A8 /* HHZWebViewController.m in Sources */,
 				6E2B52831F68FB41002E229C /* HHZSearchViewController.m in Sources */,
+				6E240D681F7DEE7000FEA13C /* HHZPersonInfoTableView.m in Sources */,
 				740038D71F1A2EA80074A2FF /* ViewController.m in Sources */,
 				6E4484BD1F39919300F4D1A8 /* HHZWeakProxy.m in Sources */,
 				6E2B52821F68FB41002E229C /* HHZResultViewController.m in Sources */,
@@ -358,6 +376,7 @@
 				6E4484BB1F39919300F4D1A8 /* HHZOrderedDictionary.m in Sources */,
 				740038D11F1A2EA80074A2FF /* main.m in Sources */,
 				6E4484BF1F39919300F4D1A8 /* HHZTableViewCell.m in Sources */,
+				6E240D651F7DEE0900FEA13C /* HHZPersonInfoCommonCell.m in Sources */,
 				6E4484BE1F39919300F4D1A8 /* HHZTableView.m in Sources */,
 				6E4484BA1F39919300F4D1A8 /* HHZLabel.m in Sources */,
 			);
@@ -480,11 +499,13 @@
 			baseConfigurationReference = 01AF1E3151C5FC7BC7616F7E /* Pods-HHZBaseClass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HHZBaseClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZBaseClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Debug;
@@ -494,11 +515,13 @@
 			baseConfigurationReference = 0C49723A89BDB8C968E62164 /* Pods-HHZBaseClass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HHZBaseClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZBaseClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Release;

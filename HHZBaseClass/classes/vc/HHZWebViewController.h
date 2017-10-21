@@ -15,10 +15,9 @@
  */
 @property (nonatomic, strong) NSString * urlString;
 /**
- *  创建WebView(默认自行创建,需要自己实现需重载)
+ *  创建WebView(默认自行创建)
  */
 -(void)createWebView;
-
 /**
  *  加载Request请求
  */
@@ -32,10 +31,6 @@
  *  菊花
  */
 @property (nonatomic, strong) UIActivityIndicatorView * activityView;
-/**
- *  创建Activity菊花View
- */
--(void)createActivity;
 
 
 #pragma mark Cookie相关的

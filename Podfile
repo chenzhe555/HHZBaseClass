@@ -8,6 +8,7 @@ target 'HHZBaseClass' do
   pod 'HHZCategory', :git => 'https://github.com/chenzhe555/HHZCategory.git'
   pod 'HHZUtils', :git => 'https://github.com/chenzhe555/HHZUtils.git'
   pod 'HHZConfigs', :git => 'https://github.com/chenzhe555/HHZConfigs.git'
+  pod 'Masonry', '~> 1.0.2'
   # Pods for HHZBaseClass
 
 end

@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HHZViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : HHZViewController
 
 @end
 

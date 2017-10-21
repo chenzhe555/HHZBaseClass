@@ -8,53 +8,57 @@
 
 #import "HHZWebViewController.h"
 
-@interface HHZWebViewController ()
-
-@end
-
 @implementation HHZWebViewController
 
-#pragma mark 视图控制器生命周期
+#pragma mark **********************     视图控制器生命周期  **********************
 
-- (void)viewDidLoad {
+-(void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     [self createWebView];
     [self loadWebRequest];
-    [self createActivity];
 }
 
-- (void)didReceiveMemoryWarning {
+-(void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark **********************        数据初始化      **********************
+
+#pragma mark **********************         视图创建      **********************
+
+-(void)createWebView
+{
+    self.webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    self.webView.delegate = self;
+    [self.view addSubview:self.webView];
 }
 
 
-#pragma mark 数据初始化
+#pragma mark **********************  属性以及视图创建后的基本操作  ******************
+
+-(UIActivityIndicatorView *)activityView
+{
+    if (!_activityView)
+    {
+        _activityView = [[UIActivityIndicatorView alloc] init];
+        _activityView.center = self.webView.center;
+        _activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
+        [self.webView addSubview:_activityView];
+    }
+    return _activityView;
+}
+
+#pragma mark **********************         重写方法       ***********************
+
+#pragma mark **********************        自定义方法       ***********************
 
 -(void)loadWebRequest
 {
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:_urlString]]];
 }
 
-#pragma mark 视图创建
-
--(void)createWebView
-{
-    _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
-    self.webView.delegate = self;
-    [self.view addSubview:self.webView];
-}
-
--(void)createActivity
-{
-    self.activityView = [[UIActivityIndicatorView alloc] init];
-    self.activityView.center = _webView.center;
-    self.activityView.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
-    [self.webView addSubview:self.activityView];
-}
-
-#pragma mark 自定义辅助方法
 -(void)generateCookieName:(NSString *)cookieName Value:(NSString *)cookieValue Domain:(NSString *)cookieDomain Path:(NSString *)cookiePath Expires:(NSTimeInterval)expires
 {
     NSMutableDictionary * cookiePropertie = [NSMutableDictionary dictionary];
@@ -67,24 +71,25 @@
     [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
 }
 
-#pragma mark 触发事件
+#pragma mark **********************         触发事件       ***********************
 
-#pragma mark 回调事件
+#pragma mark **********************         回调事件       ***********************
 
-#pragma mark 回调事件 --> UIWebViewDelegate
+#pragma mark 回调事件  UIWebViewDelegate
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
-    [self.activityView startAnimating];
+    if (self.activityView) [self.activityView startAnimating];
     return YES;
 }
 
 -(void)webViewDidFinishLoad:(UIWebView *)webView
 {
-    [self.activityView stopAnimating];
+    if (self.activityView) [self.activityView stopAnimating];
 }
 
 -(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
-    [self.activityView stopAnimating];
+    if (self.activityView) [self.activityView stopAnimating];
 }
+
 @end

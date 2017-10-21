@@ -46,11 +46,13 @@ PODS:
   - HHZUtils/HHZUtils/regular (0.0.3.1)
   - HHZUtils/HHZUtils/sectionIndex (0.0.3.1)
   - HHZUtils/HHZUtils/system (0.0.3.1)
+  - Masonry (1.0.2)
 
 DEPENDENCIES:
   - HHZCategory (from `https://github.com/chenzhe555/HHZCategory.git`)
   - HHZConfigs (from `https://github.com/chenzhe555/HHZConfigs.git`)
   - HHZUtils (from `https://github.com/chenzhe555/HHZUtils.git`)
+  - Masonry (~> 1.0.2)
 
 EXTERNAL SOURCES:
   HHZCategory:
@@ -75,7 +77,8 @@ SPEC CHECKSUMS:
   HHZCategory: b8daeffa2c5eba1be7329fdb03804f04e32ea5da
   HHZConfigs: ec7b50d7bc0f7738a1e104b325b22a5ab81ece85
   HHZUtils: 8caa2bd6e807c196ff90d4406dca9ab977e7da3a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 16cb653f2717551fdddd71ed3a1d3611327005c8
+PODFILE CHECKSUM: a58a4e280e2a3d1d606b01cf117a700926535011
 
 COCOAPODS: 1.3.0.beta.3
