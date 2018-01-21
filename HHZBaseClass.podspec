@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
           three.source_files = 'HHZBaseClass/classes/tableview/cell/*.{h,m}'
         end
         
-        three.source_files = 'HHZBaseClass/classes/tableview/*.{h,m}'
+        two.source_files = 'HHZBaseClass/classes/tableview/*.{h,m}'
       end
 
       one.subspec 'vc' do |two|
