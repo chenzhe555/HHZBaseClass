@@ -101,10 +101,11 @@ Pod::Spec.new do |s|
         three.source_files = 'HHZBaseClass/classes/navi/*.{h,m}'
       end
 
-      one.subspec 'tableview' do |three|
-        two.subspec 'search' do |three|
+      one.subspec 'tableview' do |two|
+        two.subspec 'cell' do |three|
           three.source_files = 'HHZBaseClass/classes/tableview/cell/*.{h,m}'
         end
+        
         three.source_files = 'HHZBaseClass/classes/tableview/*.{h,m}'
       end
 
