@@ -102,6 +102,9 @@ Pod::Spec.new do |s|
       end
 
       one.subspec 'tableview' do |three|
+        two.subspec 'search' do |three|
+          three.source_files = 'HHZBaseClass/classes/tableview/cell/*.{h,m}'
+        end
         three.source_files = 'HHZBaseClass/classes/tableview/*.{h,m}'
       end
 
